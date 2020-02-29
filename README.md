@@ -1,8 +1,9 @@
 # React Questions & Answers
 React Questions &amp; Answers
 
-*General React – Questions*
-*1*. ### What is React?
+General React – Questions
+
+#1. ### What is React?
 
 React is an **open-source frontend JavaScript library** developed by Facebook in 2011 which is used for building user interfaces especially for single page applications. 
 It is used for handling view layer for web and mobile apps. 
