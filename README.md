@@ -4,7 +4,7 @@
 
 1. ### What is React?
 
-* React is an **open-source frontend JavaScript library** developed by Facebook in 2011 which is used for building user interfaces especially for single page applications. <br>
+* React is an **open-source frontend JavaScript library** developed by Facebook in 2011 which is used for building user interfaces         especially for single page applications. <br>
 * It is used for handling view layer for web and mobile apps. <br>
 * React was created by [Jordan Walke](https://github.com/jordwalke), a software engineer working for Facebook.<br> 
 * React was first deployed on Facebook's News Feed in 2011 and on Instagram in 2012.<br>
@@ -46,3 +46,12 @@
             <td>5. No memory wastage.</td>
         </tr>
       </table>
+
+4. ### List some of the major advantages of React.
+
+* It increases the application’s performance.
+* It can be conveniently used on the client as well as server side.
+* Because of JSX, code’s readability increases.
+* React is easy to integrate with other frameworks like Meteor, Angular, etc.
+* Using React, writing UI test cases become extremely easy.
+* Boost community base.
