@@ -10,3 +10,28 @@
 * React was first deployed on Facebook's News Feed in 2011 and on Instagram in 2012.<br>
 * It follows the component based approach which helps in building reusable UI components.<br>
 * It is used for developing complex and interactive web and mobile UI.<br>
+
+2. ### What are the features of React? 
+
+* It uses the virtual DOM instead of the real DOM.<br>
+* It uses server-side rendering.<br>
+* It follows uni-directional data flow or data binding.<br>
+* Uses reusable/composable UI components to develop the view.<br>
+
+3. ### Differentiate between Real DOM and Virtual DOM.
+
+<table>
+  <caption>Monthly savings</caption>
+  <tr style="background-color:#008dd9">
+    <th>Real DOM</th>
+    <th>Virtual  DOM</th>
+  </tr>
+  <tr>
+    <td>1. It updates slow.</td>
+    <td>1. It updates faster.</td>
+  </tr>
+  <tr>
+    <td>2. DOM manipulation is very expensive.</td>
+    <td>2. DOM manipulation is very easy.</td>
+  </tr>
+</table>
