@@ -20,29 +20,29 @@
 
 3. ### Differentiate between Real DOM and Virtual DOM.
 
-  <table>
-    <tr style="bgcolor : blue">
-      <th>Real DOM</th>
-      <th>Virtual  DOM</th>
-    </tr>
-    <tr>
-      <td>1. It updates slow.</td>
-      <td>1. It updates faster.</td>
-    </tr>
-    <tr>
-      <td>2. DOM manipulation is very expensive.</td>
-      <td>2. DOM manipulation is very easy.</td>
-    </tr>
-    <tr>
-        <td>3. Can directly update HTML.</td>
-        <td>3. Can’t directly update HTML.</td>
-    </tr>
-    <tr>
-        <td>4. Creates a new DOM if element updates.</td>
-        <td>4. Updates the JSX if element updates.</td>
-    </tr>
-    <tr>
-        <td>5. Too much of memory wastage.</td>
-        <td>5. No memory wastage.</td>
-    </tr>
-  </table>
+      <table>
+        <tr style="bgcolor : blue">
+          <th>Real DOM</th>
+          <th>Virtual  DOM</th>
+        </tr>
+        <tr>
+          <td>1. It updates slow.</td>
+          <td>1. It updates faster.</td>
+        </tr>
+        <tr>
+          <td>2. DOM manipulation is very expensive.</td>
+          <td>2. DOM manipulation is very easy.</td>
+        </tr>
+        <tr>
+            <td>3. Can directly update HTML.</td>
+            <td>3. Can’t directly update HTML.</td>
+        </tr>
+        <tr>
+            <td>4. Creates a new DOM if element updates.</td>
+            <td>4. Updates the JSX if element updates.</td>
+        </tr>
+        <tr>
+            <td>5. Too much of memory wastage.</td>
+            <td>5. No memory wastage.</td>
+        </tr>
+      </table>
