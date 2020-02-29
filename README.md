@@ -21,8 +21,7 @@
 3. ### Differentiate between Real DOM and Virtual DOM.
 
 <table>
-  <caption>Monthly savings</caption>
-  <tr style="background-color:#008dd9">
+  <tr style="bgcolor:#008dd9">
     <th>Real DOM</th>
     <th>Virtual  DOM</th>
   </tr>
