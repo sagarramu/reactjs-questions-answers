@@ -55,3 +55,75 @@
 * React is easy to integrate with other frameworks like Meteor, Angular, etc.
 * Using React, writing UI test cases become extremely easy.
 * Boost community base.
+
+5. ### What are the limitations of React?
+* React is just a view library, not a full framework.
+* Its library is very large and takes time to understand.
+* It can be little difficult for the novice programmers to understand.
+* Integrating React into a traditional MVC framework requires some additional configuration.
+* Coding gets complex as it uses inline templating and JSX.
+* Too many smaller components leading to over engineering or boilerplate.
+
+6. ### What is JSX?
+* JSX stands for JavaScript XML.
+* JSX allows us to write HTML in React.
+* This is a type of file used by React which utilizes the expressiveness of JavaScript along with HTML like template syntax.
+* This makes the HTML file really easy to understand.
+* This file makes applications robust and boosts its performance.
+
+    In the example below text inside `<h1>` tag return as JavaScript function to the render function.
+    
+    ```jsx harmony
+    class App extends React.Component {
+      render() {
+        return(
+          <div>
+            <h1>{'Welcome to React world!'}</h1>
+          </div>
+        )
+      }
+    }
+    ```
+7. ### Why can’t browsers read JSX?
+* Browsers can only read JavaScript objects but JSX is not a regular JavaScript object. so, browsers can't understand JSX code.
+  Thus to enable a browser to read JSX, first, we need to transform JSX file into a JavaScript object using JSX transformers like Babel   and then pass it to the browser.The most widely used transpiler right now is Babel.
+
+8. ### How is React different from Angular?
+
+      <table>
+        <tr style="bgcolor : blue">
+          <th>TOPIC</th>
+          <th>REACT</th>
+          <th>ANGULAR</th>
+        </tr>
+        <tr>
+          <td>1. ARCHITECTURE</td>
+          <td>Only the View of MVC</td>
+          <td>Complete MVC</td>
+        </tr>
+        <tr>
+          <td>2. DOM</td>
+          <td>Uses virtual DOM</td>
+          <td>Uses real DOM</td>
+        </tr>
+        <tr>
+           <td>3. DATA BINDING</td>
+           <td>One-way data binding</td>
+           <td>Two-way data binding</td>
+        </tr>
+        <tr>
+          <td>4. RENDERING</td>
+          <td>Server-side rendering</td>
+          <td>Client-side rendering</td>
+        </tr>
+        <tr>
+           <td>5. DEBUGGING</td>
+           <td>Compile time debugging</td>
+           <td>Runtime debugging</td>
+        </tr>
+        <tr>
+           <td>6. AUTHOR</td>
+           <td>Facebook</td>
+           <td>Google</td>
+        </tr>
+      </table>
