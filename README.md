@@ -545,3 +545,10 @@ However, from react 16.8 with the addition of hooks, you could use state, lifecy
 >>. In Redux may use same state in different component.?
 
 >>. Without Component we develope React Js application?  
+
+>>. Explain the purpose of render() in React?
+
+	Each React component must have a render() mandatorily.
+	It returns a single React element which is the representation of the native DOM component.
+	If more than one HTML element needs to be rendered, then they must be grouped together inside one enclosing tag such as, etc.
+	This function must be kept pure i.e., it must return the same result each time it is invoked.
