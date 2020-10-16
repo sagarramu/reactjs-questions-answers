@@ -2,7 +2,7 @@
 
 ## General React – Questions
 
-1. ### What is React?
+>>. #### What is React?
 
 * React is an **open-source frontend JavaScript library** developed by Facebook in 2011 which is used for building user interfaces         especially for single page applications. <br>
 * It is used for handling view layer for web and mobile apps. <br>
@@ -11,14 +11,14 @@
 * It follows the component based approach which helps in building reusable UI components.<br>
 * It is used for developing complex and interactive web and mobile UI.<br>
 
-2. ### What are the features of React? 
+2. #### What are the features of React? 
 
 * It uses the virtual DOM instead of the real DOM.<br>
 * It uses server-side rendering.<br>
 * It follows uni-directional data flow or data binding.<br>
 * Uses reusable/composable UI components to develop the view.<br>
 
-3. ### Differentiate between Real DOM and Virtual DOM.
+>>. #### Differentiate between Real DOM and Virtual DOM.
 
       <table>
         <tr style="bgcolor : blue">
@@ -47,7 +47,7 @@
         </tr>
       </table>
 
-4. ### List some of the major advantages of React.
+>>. ### List some of the major advantages of React.
 
 * It increases the application’s performance.
 * It can be conveniently used on the client as well as server side.
@@ -56,7 +56,7 @@
 * Using React, writing UI test cases become extremely easy.
 * Boost community base.
 
-5. ### What are the limitations of React?
+>>. ### What are the limitations of React?
 * React is just a view library, not a full framework.
 * Its library is very large and takes time to understand.
 * It can be little difficult for the novice programmers to understand.
@@ -64,7 +64,7 @@
 * Coding gets complex as it uses inline templating and JSX.
 * Too many smaller components leading to over engineering or boilerplate.
 
-6. ### What is JSX?
+>>. ### What is JSX?
 * JSX stands for JavaScript XML.
 * JSX allows us to write HTML in React.
 * This is a type of file used by React which utilizes the expressiveness of JavaScript along with HTML like template syntax.
@@ -84,11 +84,11 @@
       }
     }
     ```
-7. ### Why can’t browsers read JSX?
+>>. ### Why can’t browsers read JSX?
 * Browsers can only read JavaScript objects but JSX is not a regular JavaScript object. so, browsers can't understand JSX code.
   Thus to enable a browser to read JSX, first, we need to transform JSX file into a JavaScript object using JSX transformers like Babel   and then pass it to the browser.The most widely used transpiler right now is Babel.
 
-8. ### How is React different from Angular?
+>>. ### How is React different from Angular?
 
       <table>
         <tr style="bgcolor : blue">
@@ -132,7 +132,7 @@
       React Components – React Questions
 
 
-9. ### What do you understand from “In React, everything is a component.”
+>>. ### What do you understand from “In React, everything is a component.”
 
 * Components are like functions that return HTML elements.<br>
 * Components are the building blocks of a React application’s UI.<br>
@@ -141,7 +141,7 @@
 
      Components come in two types, Class components and Function components
 
-10. ### How to create components in React?
+>>. ### How to create components in React?
 
   #### There are two possible ways to create a component.	
 
@@ -179,7 +179,7 @@ class Greeting extends React.Component {
 }
 ```
 
-11. ### There are some other key differences between these 2 components.
+>>. ### There are some other key differences between these 2 components.
 
 A * stateless component * is usually associated with how a concept is presented to the user.It is similar to a function in that, it takes an input (props) and returns the output (react element).<br> 
 
@@ -263,14 +263,14 @@ class StateLessExample extends Component {
 export default StateLessExample;
 ```
 
-12. ### Explain the purpose of render() in React.
+>>. ### Explain the purpose of render() in React.
 
 * Each React component must have a render() mandatorily.<br> 
 * It returns a single React element which is the representation of the native DOM component.<br> 
 * If more than one HTML element needs to be rendered,then they must be grouped together inside one enclosing tag such as <form>, <group>,<div> etc.<br> 
 * This function must be kept pure i.e., it must return the same result each time it is invoked.<br>
 
-13. ### What is Props?
+>>. ### What is Props?
 
 * “Props” is a special keyword in React, which stands for properties and is being used for passing data from one component to another.<br>
 * They are always passed down from the parent to the child components throughout the application.<br>
@@ -278,7 +278,7 @@ export default StateLessExample;
 * This help in maintaining the unidirectional data flow and are generally used to render the dynamically generated data.<br>
 
 
-14. ### What is a state in React and how is it used?
+>>. ### What is a state in React and how is it used?
 
 * States are the heart of React components. 
 * States are the source of data and must be kept as simple as possible. 
@@ -310,7 +310,7 @@ class User extends React.Component {
 ```
 
 
-15. ### Differentiate between states and props.
+>>. ### Differentiate between states and props.
 
 * Both props and state are plain JavaScript objects.<br> 
 * Props are immutable i.e. once set the props cannot be changed, while State is an observable object that is to be used to hold data that may change over time and to control the behavior after each change.<br>
@@ -355,7 +355,7 @@ class User extends React.Component {
   </tr>
 </table>
 
-16. ### What are the different phases of React component’s lifecycle?
+>>. ### What are the different phases of React component’s lifecycle?
 
 #### There are four different phases of React component’s lifecycle:
 
@@ -487,7 +487,7 @@ ReactDOM.render(
 ``` 
 
 
-17. How are forms created in React?
+>>. How are forms created in React?
 
 * React forms are similar to HTML forms. But in React, the state is contained in the state property of the component and is only updated via setState(). Thus the elements can’t directly update their state and their submission is handled by a JavaScript function. This function has full access to the data that is entered by the user into a form. <br>
 
@@ -524,18 +524,24 @@ class App extends React.Component {
 export default App;
 ```
 
-#### 18. How many Ways to Optimize Performance of your React App ?
+#### >>. What is the current stable version of ReactJS?
 
-#### 19. Where we can use class component and function component in react js?
+#### >>. How many Ways to Optimize Performance of your React App ?
 
-#### 20. How to Pass data between react components ? Redux, props, context api In which case we can use?
+#### >>. When to use class component over a function component in react js?
 
-#### 21. Explain Redux Thunk and Redux saga ?
+If the component needs state or lifecycle methods then use class component otherwise use function component
 
-#### 22. Explain React LifeCycle method?
+However, from react 16.8 with the addition of hooks, you could use state, lifecyle methods and other feature that were only available in class component right in your function component
 
-#### 23. Exception handling in react js ?
+#### >>. How to Pass data between react components ? Redux, props, context api In which case we can use?
 
-#### 24. In Redux may use same state in different component.?
+#### >>. Explain Redux Thunk and Redux saga ?
 
-#### 25. Without Component we develope React Js application?  
+#### >>. Explain React LifeCycle method?
+
+#### >>. Exception handling in react js ?
+
+#### >>. In Redux may use same state in different component.?
+
+#### >>. Without Component we develope React Js application?  
