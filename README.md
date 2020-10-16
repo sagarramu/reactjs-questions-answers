@@ -534,4 +534,8 @@ export default App;
 
 #### 22. Explain React LifeCycle method?
 
-#### 23.  
+#### 23. Exception handling in react js ?
+
+#### 24. In Redux may use same state in different component.?
+
+#### 25. Without Component we develope React Js application?  
