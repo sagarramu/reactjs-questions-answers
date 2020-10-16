@@ -524,3 +524,14 @@ class App extends React.Component {
 export default App;
 ```
 
+#### 18. How many Ways to Optimize Performance of your React App ?
+
+#### 19. Where we can use class component and function component in react js?
+
+#### 20. How to Pass data between react components ? Redux, props, context api In which case we can use?
+
+#### 21. Explain Redux Thunk and Redux saga ?
+
+#### 22. Explain React LifeCycle method?
+
+#### 23.  
