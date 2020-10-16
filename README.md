@@ -2,7 +2,7 @@
 
 ## General React – Questions
 
->>. #### What is React?
+>>. What is React?
 
 * React is an **open-source frontend JavaScript library** developed by Facebook in 2011 which is used for building user interfaces         especially for single page applications. <br>
 * It is used for handling view layer for web and mobile apps. <br>
@@ -11,14 +11,14 @@
 * It follows the component based approach which helps in building reusable UI components.<br>
 * It is used for developing complex and interactive web and mobile UI.<br>
 
-2. #### What are the features of React? 
+>>. What are the features of React? 
 
 * It uses the virtual DOM instead of the real DOM.<br>
 * It uses server-side rendering.<br>
 * It follows uni-directional data flow or data binding.<br>
 * Uses reusable/composable UI components to develop the view.<br>
 
->>. #### Differentiate between Real DOM and Virtual DOM.
+>>. Differentiate between Real DOM and Virtual DOM.
 
       <table>
         <tr style="bgcolor : blue">
@@ -47,7 +47,7 @@
         </tr>
       </table>
 
->>. ### List some of the major advantages of React.
+>>. List some of the major advantages of React.
 
 * It increases the application’s performance.
 * It can be conveniently used on the client as well as server side.
@@ -84,11 +84,11 @@
       }
     }
     ```
->>. ### Why can’t browsers read JSX?
+>>. Why can’t browsers read JSX?
 * Browsers can only read JavaScript objects but JSX is not a regular JavaScript object. so, browsers can't understand JSX code.
   Thus to enable a browser to read JSX, first, we need to transform JSX file into a JavaScript object using JSX transformers like Babel   and then pass it to the browser.The most widely used transpiler right now is Babel.
 
->>. ### How is React different from Angular?
+>>. How is React different from Angular?
 
       <table>
         <tr style="bgcolor : blue">
@@ -524,24 +524,24 @@ class App extends React.Component {
 export default App;
 ```
 
-#### >>. What is the current stable version of ReactJS?
+>>. What is the current stable version of ReactJS?
 
-#### >>. How many Ways to Optimize Performance of your React App ?
+>>. How many Ways to Optimize Performance of your React App ?
 
-#### >>. When to use class component over a function component in react js?
+>>. When to use class component over a function component in react js?
 
 If the component needs state or lifecycle methods then use class component otherwise use function component
 
 However, from react 16.8 with the addition of hooks, you could use state, lifecyle methods and other feature that were only available in class component right in your function component
 
-#### >>. How to Pass data between react components ? Redux, props, context api In which case we can use?
+>>. How to Pass data between react components ? Redux, props, context api In which case we can use?
 
-#### >>. Explain Redux Thunk and Redux saga ?
+>>. Explain Redux Thunk and Redux saga ?
 
-#### >>. Explain React LifeCycle method?
+>>. Explain React LifeCycle method?
 
-#### >>. Exception handling in react js ?
+>>. Exception handling in react js ?
 
-#### >>. In Redux may use same state in different component.?
+>>. In Redux may use same state in different component.?
 
-#### >>. Without Component we develope React Js application?  
+>>. Without Component we develope React Js application?  
